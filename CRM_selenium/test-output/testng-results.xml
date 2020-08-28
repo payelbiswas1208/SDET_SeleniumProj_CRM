@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SuiteCRM" duration-ms="166564" started-at="2020-08-28T20:39:39 IST" finished-at="2020-08-28T20:42:25 IST">
+    <groups>
+    </groups>
+    <test name="CRMTest" duration-ms="166564" started-at="2020-08-28T20:39:39 IST" finished-at="2020-08-28T20:42:25 IST">
+      <class name="sdetProject.VerifyPageTitle">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.VerifyPageTitle@db55763b]" name="launchBrowser" is-config="true" duration-ms="49342" started-at="2020-08-28T20:39:39 IST" finished-at="2020-08-28T20:40:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyTitle()[pri:0, instance:sdetProject.VerifyPageTitle@db55763b]" name="verifyTitle" duration-ms="325" started-at="2020-08-28T20:40:28 IST" finished-at="2020-08-28T20:40:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.VerifyPageTitle@db55763b]" name="closeBrowser" is-config="true" duration-ms="6054" started-at="2020-08-28T20:40:28 IST" finished-at="2020-08-28T20:40:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.VerifyPageTitle -->
+      <class name="sdetProject.TraverseTable1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.TraverseTable1@d72a0568]" name="launchBrowser" is-config="true" duration-ms="59234" started-at="2020-08-28T20:40:59 IST" finished-at="2020-08-28T20:41:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginCRM()[pri:0, instance:sdetProject.TraverseTable1@d72a0568]" name="loginCRM" is-config="true" duration-ms="15116" started-at="2020-08-28T20:41:58 IST" finished-at="2020-08-28T20:42:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+        <test-method status="PASS" signature="printNames()[pri:0, instance:sdetProject.TraverseTable1@d72a0568]" name="printNames" duration-ms="9348" started-at="2020-08-28T20:42:13 IST" finished-at="2020-08-28T20:42:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printNames -->
+        <test-method status="PASS" signature="logoutCRM()[pri:0, instance:sdetProject.TraverseTable1@d72a0568]" name="logoutCRM" is-config="true" duration-ms="1342" started-at="2020-08-28T20:42:22 IST" finished-at="2020-08-28T20:42:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutCRM -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.TraverseTable1@d72a0568]" name="closeBrowser" is-config="true" duration-ms="1120" started-at="2020-08-28T20:42:24 IST" finished-at="2020-08-28T20:42:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.TraverseTable1 -->
+      <class name="sdetProject.TraverseTable2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.TraverseTable2@f5a3f2fc]" name="launchBrowser" is-config="true" duration-ms="59686" started-at="2020-08-28T20:40:59 IST" finished-at="2020-08-28T20:41:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginCRM()[pri:0, instance:sdetProject.TraverseTable2@f5a3f2fc]" name="loginCRM" is-config="true" duration-ms="16228" started-at="2020-08-28T20:41:59 IST" finished-at="2020-08-28T20:42:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+        <test-method status="PASS" signature="printNameUsername()[pri:0, instance:sdetProject.TraverseTable2@f5a3f2fc]" name="printNameUsername" duration-ms="7953" started-at="2020-08-28T20:42:15 IST" finished-at="2020-08-28T20:42:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printNameUsername -->
+        <test-method status="PASS" signature="logoutCRM()[pri:0, instance:sdetProject.TraverseTable2@f5a3f2fc]" name="logoutCRM" is-config="true" duration-ms="1328" started-at="2020-08-28T20:42:23 IST" finished-at="2020-08-28T20:42:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutCRM -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.TraverseTable2@f5a3f2fc]" name="closeBrowser" is-config="true" duration-ms="921" started-at="2020-08-28T20:42:24 IST" finished-at="2020-08-28T20:42:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.TraverseTable2 -->
+      <class name="sdetProject.MenuCheck">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.MenuCheck@93dd02b4]" name="launchBrowser" is-config="true" duration-ms="50467" started-at="2020-08-28T20:39:39 IST" finished-at="2020-08-28T20:40:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginCRM()[pri:0, instance:sdetProject.MenuCheck@93dd02b4]" name="loginCRM" is-config="true" duration-ms="10930" started-at="2020-08-28T20:40:29 IST" finished-at="2020-08-28T20:40:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+        <test-method status="PASS" signature="verifyMenu()[pri:0, instance:sdetProject.MenuCheck@93dd02b4]" name="verifyMenu" duration-ms="235" started-at="2020-08-28T20:40:40 IST" finished-at="2020-08-28T20:40:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMenu -->
+        <test-method status="PASS" signature="logoutCRM()[pri:0, instance:sdetProject.MenuCheck@93dd02b4]" name="logoutCRM" is-config="true" duration-ms="9606" started-at="2020-08-28T20:40:40 IST" finished-at="2020-08-28T20:40:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutCRM -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.MenuCheck@93dd02b4]" name="closeBrowser" is-config="true" duration-ms="8872" started-at="2020-08-28T20:40:50 IST" finished-at="2020-08-28T20:40:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.MenuCheck -->
+      <class name="sdetProject.AdditionalDetails">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.AdditionalDetails@7121b819]" name="launchBrowser" is-config="true" duration-ms="19996" started-at="2020-08-28T20:40:34 IST" finished-at="2020-08-28T20:40:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginCRM()[pri:0, instance:sdetProject.AdditionalDetails@7121b819]" name="loginCRM" is-config="true" duration-ms="9756" started-at="2020-08-28T20:40:54 IST" finished-at="2020-08-28T20:41:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+        <test-method status="PASS" signature="printDetail()[pri:0, instance:sdetProject.AdditionalDetails@7121b819]" name="printDetail" duration-ms="70848" started-at="2020-08-28T20:41:04 IST" finished-at="2020-08-28T20:42:15 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printDetail -->
+        <test-method status="PASS" signature="logoutCRM()[pri:0, instance:sdetProject.AdditionalDetails@7121b819]" name="logoutCRM" is-config="true" duration-ms="1631" started-at="2020-08-28T20:42:15 IST" finished-at="2020-08-28T20:42:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutCRM -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.AdditionalDetails@7121b819]" name="closeBrowser" is-config="true" duration-ms="776" started-at="2020-08-28T20:42:17 IST" finished-at="2020-08-28T20:42:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.AdditionalDetails -->
+      <class name="sdetProject.FooterText">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.FooterText@55def9d4]" name="launchBrowser" is-config="true" duration-ms="50781" started-at="2020-08-28T20:39:39 IST" finished-at="2020-08-28T20:40:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="printFooterText()[pri:0, instance:sdetProject.FooterText@55def9d4]" name="printFooterText" duration-ms="286" started-at="2020-08-28T20:40:29 IST" finished-at="2020-08-28T20:40:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printFooterText -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.FooterText@55def9d4]" name="closeBrowser" is-config="true" duration-ms="4728" started-at="2020-08-28T20:40:30 IST" finished-at="2020-08-28T20:40:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.FooterText -->
+      <class name="sdetProject.MenuColour">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.MenuColour@8e9f1100]" name="launchBrowser" is-config="true" duration-ms="50354" started-at="2020-08-28T20:39:39 IST" finished-at="2020-08-28T20:40:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginCRM()[pri:0, instance:sdetProject.MenuColour@8e9f1100]" name="loginCRM" is-config="true" duration-ms="11261" started-at="2020-08-28T20:40:29 IST" finished-at="2020-08-28T20:40:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCRM -->
+        <test-method status="PASS" signature="printMenuColour()[pri:0, instance:sdetProject.MenuColour@8e9f1100]" name="printMenuColour" duration-ms="1325" started-at="2020-08-28T20:40:40 IST" finished-at="2020-08-28T20:40:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printMenuColour -->
+        <test-method status="PASS" signature="logoutCRM()[pri:0, instance:sdetProject.MenuColour@8e9f1100]" name="logoutCRM" is-config="true" duration-ms="10218" started-at="2020-08-28T20:40:42 IST" finished-at="2020-08-28T20:40:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutCRM -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.MenuColour@8e9f1100]" name="closeBrowser" is-config="true" duration-ms="7244" started-at="2020-08-28T20:40:52 IST" finished-at="2020-08-28T20:40:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.MenuColour -->
+      <class name="sdetProject.CRMLogin">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.CRMLogin@295d99f1]" name="launchBrowser" is-config="true" duration-ms="20404" started-at="2020-08-28T20:40:34 IST" finished-at="2020-08-28T20:40:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="loginAdmin()[pri:0, instance:sdetProject.CRMLogin@295d99f1]" name="loginAdmin" duration-ms="20852" started-at="2020-08-28T20:40:55 IST" finished-at="2020-08-28T20:41:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginAdmin -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.CRMLogin@295d99f1]" name="closeBrowser" is-config="true" duration-ms="2477" started-at="2020-08-28T20:41:16 IST" finished-at="2020-08-28T20:41:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.CRMLogin -->
+      <class name="sdetProject.ImageUrl">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:sdetProject.ImageUrl@e785cbd8]" name="launchBrowser" is-config="true" duration-ms="73780" started-at="2020-08-28T20:39:39 IST" finished-at="2020-08-28T20:40:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="printImageUrl()[pri:0, instance:sdetProject.ImageUrl@e785cbd8]" name="printImageUrl" duration-ms="56" started-at="2020-08-28T20:40:52 IST" finished-at="2020-08-28T20:40:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printImageUrl -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:sdetProject.ImageUrl@e785cbd8]" name="closeBrowser" is-config="true" duration-ms="11105" started-at="2020-08-28T20:40:52 IST" finished-at="2020-08-28T20:41:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- sdetProject.ImageUrl -->
+    </test> <!-- CRMTest -->
+  </suite> <!-- SuiteCRM -->
+</testng-results>

@@ -1,0 +1,25 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteCRM" parallel="classes">
+	<test name="CRMTest">
+		<classes>
+			<class name="sdetProject.VerifyPageTitle"/>
+			
+			<class name="sdetProject.FooterText"/>
+			
+			<class name="sdetProject.ImageUrl"/>
+			
+			<class name="sdetProject.MenuCheck"/>
+			
+			<class name="sdetProject.MenuColour"/>
+			
+			<class name="sdetProject.CRMLogin"/>
+			
+			<class name="sdetProject.AdditionalDetails"/>
+			
+			<class name="sdetProject.TraverseTable1"/>
+			
+			<class name="sdetProject.TraverseTable2"/>
+			
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
